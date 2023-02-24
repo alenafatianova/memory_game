@@ -1,0 +1,6 @@
+.cards_container {
+    display: grid;
+    grid-column: 4;
+    gap: 14px;
+    grid-template-columns: repeat(4, 150px);
+}

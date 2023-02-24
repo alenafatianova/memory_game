@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 20px;
+    grid-template-columns: repeat(10, 82px);
+    gap: 73px;
+    position: relative;
+}
+
+.header_name {
+    color: #0083FC;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 165px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+

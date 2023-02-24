@@ -1,0 +1,9 @@
+
+.tries_counter {
+    text-transform: uppercase;
+    text-align: center;
+    color: #0083FC;
+    font-size: 24px;
+    font-weight: 500;
+    grid-column: 9;
+}

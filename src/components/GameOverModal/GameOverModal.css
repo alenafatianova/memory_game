@@ -1,0 +1,43 @@
+.modal_container {
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    grid-column: 3;
+}
+
+.modal_body {
+    width: 685px;
+    height: 371px;
+    background-color: #FF5533;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.title_one {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 67px;
+    text-transform: uppercase;
+}
+
+.title_two {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.reset_game_btn {
+    color: #FFF;
+    background-color: #0083FC;
+    width: 340px;
+    height: 64px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 119px;
+}

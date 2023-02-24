@@ -1,0 +1,35 @@
+.card {
+    position: relative;
+}
+
+.card .front_side_img {
+    position: absolute;
+    transform: rotateY(90deg);
+}
+
+.flipped_card .front_side_img {
+    transform: rotate(0deg);
+}
+
+.back_side {
+    width: 115px;
+    height: 115px;
+    background-color: #0083FC;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+
+.front_side_img {
+    background-color: #E5E5E5;
+    width: 115px;
+    height: 115px;
+}
+
+.flipped_card .disabled_cards {
+    background-color: antiquewhite;
+    transform: none;
+}
+
