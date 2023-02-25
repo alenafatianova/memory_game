@@ -33,3 +33,25 @@
     transform: none;
 }
 
+.disabled_card {
+    color: white;
+    transform: none;
+}
+
+.back_side_card {
+    width: 115px;
+    height: 115px;
+    background-color: #0083FC;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    align-content: center;
+}
+
+.front_side_card {
+    width: 115px;
+    height: 115px;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+}
