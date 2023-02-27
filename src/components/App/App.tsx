@@ -10,7 +10,7 @@ import './App.css'
 
 export const App = () => {
 
-  const [click, setClick] = useState(40)
+  const [click, setClick] = useState(0)
   const [disabledCards, setDisabledCards] = useState<Set<number>>(new Set())
   const [chosenCards, setChosenCards] = useState<ICardProp[]>([])
   const bothChosenCards =  chosenCards[0] && chosenCards[1]
