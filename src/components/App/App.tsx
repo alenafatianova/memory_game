@@ -2,6 +2,7 @@ import React, { StrictMode, useEffect, useState } from 'react'
 import { Cards } from '../Cards/Cards'
 import { cardsData } from '../data'
 import { GameOverModal } from '../GameOverModal/GameOverModal'
+import { ModalWin } from '../ModalWin/ModalWin'
 import { Movement } from '../Movement/Movement'
 import { Tries } from '../Tries/Tries'
 import { ICardProp } from '../types'
@@ -45,6 +46,8 @@ export const App = () => {
   
  }, [bothChosenCards])
 
+ console.log('disabledCards: ', disabledCards.size)
+
   return (
     <div>
         <h2 className='header_name'>Memory</h2>
@@ -53,6 +56,7 @@ export const App = () => {
         <Cards disabledCards={disabledCards} chooseCard={chooseCard}  chosenCardsIds={chosenCardsIds} />
         <Tries tries={tries - click} />
         {click === 40 && <GameOverModal onReset={onReset} /> }
+        { disabledCards.size === 16 && <ModalWin click={click}  onReset={onReset} /> }
        </div>
     </div>
   )
