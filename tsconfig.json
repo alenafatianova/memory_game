@@ -3,7 +3,7 @@
         "jsx": "react",
         "strict": true,
         "esModuleInterop": true,
-        "target": "es5"
+        "target": "es2015"
     },
     "include": ["src", "script.tsx", "custom.d.ts"],
     "exclude": ["node_modules", "dist"]

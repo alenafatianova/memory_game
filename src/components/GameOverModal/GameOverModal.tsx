@@ -6,7 +6,7 @@ interface IModal {
 }
 export const GameOverModal: FC<IModal> = ({ onReset }) => {
   return (
-    <div className='modal_container'>
+    <div className='modal_container' onClick={(e) => e.preventDefault()}>
         <div className='modal_body'>
             <span className='title_one'>Увы, вы проиграли</span>
             <span className='title_two'>У вас кончились ходы</span>

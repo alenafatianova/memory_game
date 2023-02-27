@@ -1,14 +1,8 @@
-.card {
-    position: relative;
-}
 
-.card .front_side_img {
-    position: absolute;
-    transform: rotateY(90deg);
-}
-
-.flipped_card .front_side_img {
-    transform: rotate(0deg);
+img {
+    width: 115px;
+    height: 115px;
+    background-color: #d6d3d3;
 }
 
 .back_side {
@@ -22,14 +16,11 @@
     align-content: center;
 }
 
-.front_side_img {
-    background-color: #E5E5E5;
+.disabled_card {
     width: 115px;
     height: 115px;
-}
-
-.flipped_card .disabled_cards {
-    background-color: antiquewhite;
-    transform: none;
+    background-color: #d6d3d3;
+    overflow: hidden;
+    text-indent: 100%;
 }
 
